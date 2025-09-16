@@ -48,12 +48,12 @@ onMounted(async () => {
   </div>
 
   <!-- Loading state -->
-  <div v-if="loading" class="flex items-center justify-center h-screen">
+  <div v-if="loading" class="flex items-center justify-center bg-orange-200 h-screen">
     <span class="loading loading-infinity loading-xl"></span>
   </div>
 
   <!-- Product card -->
-  <div v-else-if="product" class="relative w-3/5 -top-30 bg-white shadow-2xl mx-auto mt-20 rounded-lg p-10">
+  <div v-else-if="product" class="relative w-3/5 -top-30 bg-white shadow-2xl mx-auto mt-40 rounded-lg p-10">
     <div class="flex space-x-10">
       <!-- Left: Image -->
       <div class="space-y-5 w-3/7">

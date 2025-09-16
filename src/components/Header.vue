@@ -2,7 +2,7 @@
 
 <template>
 
-    <div class="navbar shadow-sm bg-orange-100 sticky h-20 top-0 z-10">
+    <div class="navbar shadow-sm bg-orange-100 fixed h-20 top-0 z-10">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
